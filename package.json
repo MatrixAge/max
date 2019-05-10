@@ -1,0 +1,36 @@
+{
+      "name": "max",
+      "version": "1.0.0",
+      "description": "A scaffold is composed of MongoDB Koa Nextjs and graphql.",
+      "main": "index.js",
+      "scripts": {
+            "dev": "nodemon server/server.js",
+            "build": "next build",
+            "start": "set NODE_ENV=production && nodemon server/server.js",
+            "export": "npm run build && next export",
+            "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [
+            "nextjs,koa,mongodb,graphql,react"
+      ],
+      "author": "nord",
+      "license": "MIT",
+      "dependencies": {
+            "@zeit/next-css": "^1.0.1",
+            "@zeit/next-less": "^1.0.1",
+            "apollo-fetch": "^0.7.0",
+            "graphql": "^14.3.0",
+            "graphql-server-koa": "^1.4.0",
+            "koa": "^2.7.0",
+            "koa-body": "^4.1.0",
+            "koa-router": "^7.4.0",
+            "less": "^3.9.0",
+            "material-design-icons": "^3.0.1",
+            "mongoose": "^5.5.5",
+            "next": "^8.1.0",
+            "nodemon": "^1.19.0",
+            "react": "^16.8.6",
+            "react-dom": "^16.8.6"
+      },
+      "devDependencies": {}
+}

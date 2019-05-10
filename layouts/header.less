@@ -1,0 +1,69 @@
+@import '../common/vars.less';
+
+.header_wrap {
+    .header {
+        background-color: @color_1;
+        height: 60px;
+
+        .left {
+              left: 10px;
+              cursor: pointer;
+            .img_logo {
+                max-height: 24px;
+                margin-right: 10px;
+                padding: 6px;
+                border: 1.5px solid @border_color_1;
+            }
+
+            .name {
+                color: white;
+                font-weight: 500;
+                line-height: 1;
+
+                .c_name {
+                    font-size: 16px;
+                    margin-bottom: 6px;
+                    letter-spacing: 1px;
+                }
+
+                .e_name {
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+
+        .center{
+            .menu{
+                  .menu_item{
+                        a:hover{
+                              opacity: 1;
+                        }
+
+                        a.active{
+                              opacity: 1;
+                        }
+
+                        a{
+                              font-size: 15px;
+                              color: white;
+                              font-weight: bold;
+                              padding: 4px 10px;
+                              opacity: 0.6;
+                              margin: 0 10px;
+                              transition: all ease 0.3s;
+                        }
+                  }
+            }
+        }
+
+        .right {
+              right: 10px;
+            .icon_person {
+                  font-size: 24px;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
