@@ -1,5 +1,5 @@
 {
-      "name": "max",
+      "name": "@verts/max",
       "version": "1.0.0",
       "description": "A scaffold is composed of MongoDB Koa Nextjs and graphql.",
       "main": "index.js",
@@ -13,7 +13,7 @@
       "keywords": [
             "nextjs,koa,mongodb,graphql,react"
       ],
-      "author": "nord",
+      "author": "V",
       "license": "MIT",
       "dependencies": {
             "@zeit/next-css": "^1.0.1",
