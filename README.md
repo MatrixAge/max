@@ -4,11 +4,11 @@ This project is a scaffold composed of MongoDB Koa Nextjs and graphql.
 
 ## Development server front-mode
 
-Run `npm run dev` for a front-mode dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run dev` for a front-mode dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
 
 ## Development server universal-mode
 
-Run `npm run start` for a universal-mode dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run start` for a universal-mode dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
